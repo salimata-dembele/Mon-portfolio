@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salimata — Détail des Projets</title>
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Salimata<span>.data</span></a>
+      <nav class="nav-links">
+        <a href="index.html#accueil">Accueil</a>
+        <a href="index.html#competences">Compétences</a>
+        <a href="projets.html" class="active">Projets</a>
+        <a href="index.html#posters">Posters</a>
+        <a href="index.html#experience">Parcours</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Changer de thème">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="burger" aria-label="Menu mobile">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    
+    <div class="page-header text-center mb-5">
+      <a href="index.html#projets" class="btn-back">← Retour à l'accueil</a>
+      <h1 class="mt-3">Détail des Projets</h1>
+      <p class="subtitle">Présentation approfondie de mes travaux en Data Science, Statistiques et Business Intelligence.</p>
+    </div>
+
+    <!-- Projet 1 -->
+    <article id="projet-1" class="project-card-detail mb-5">
+      <div class="project-header">
+        <span class="badge-sm">Business Intelligence & Power BI</span>
+        <h3>1. Construction & Présentation d’Indicateurs de Performance (KPI)</h3>
+      </div>
+
+      <div class="project-body">
+        <h4>Présentation du projet</h4>
+        <p>Analyse de la base de données Mother Jones (1982–2024) afin d'étudier l'évolution spatio-temporelle et les facteurs de gravité des fusillades de masse aux États-Unis.</p>
+
+        <h4>Organisation du travail</h4>
+        <ul>
+          <li><strong>Suivi :</strong> Réunions hebdomadaires de suivi et de cadrage.</li>
+          <li><strong>Livrables :</strong> Dashboard interactif Power BI (.pbix) et base nettoyée (.xlsx).</li>
+        </ul>
+
+        <h4>Démarche et résolution du problème</h4>
+        <ul>
+          <li><strong>Axe d'analyse :</strong> Cadrage sur la gravité des événements (nombre de victimes, blessés et tués).</li>
+          <li><strong>Nettoyage ETL :</strong> Préparation, filtrage et contrôle de qualité de la base sous Power Query et Excel.</li>
+          <li><strong>Datavisualisation :</strong> Modélisation sous Power BI, calculs DAX, cartes choroplèthes et filtres dynamiques.</li>
+        </ul>
+
+        <h4>Acquis</h4>
+        <ul>
+          <li>Maîtrise de la modélisation de données et des fonctions DAX sous Power BI.</li>
+          <li>Application des bonnes pratiques de conception de tableaux de bord décisionnels.</li>
+        </ul>
+      </div>
+
+      <div class="project-footer-tools">
+        <span class="tools-label">Outils d'analyse :</span>
+        <div class="tools-list">
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Création de tableaux de bord interactifs.">Power BI</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Formules et mesures calculées dynamiques.">DAX</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Nettoyage et transformation ETL.">Power Query</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Tableaux croisés et vérification.">Excel</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Projet 2 -->
+    <article id="projet-2" class="project-card-detail mb-5">
+      <div class="project-header">
+        <span class="badge-sm">Statistiques & Analyse d'Enquête</span>
+        <h3>2. Conception et Analyse d’une Enquête Statistique</h3>
+      </div>
+
+      <div class="project-body">
+        <h4>Présentation du projet</h4>
+        <p>Étude statistique complète portant sur la mesure et l'analyse des pratiques sportives chez les lycéens.</p>
+
+        <h4>Organisation du travail</h4>
+        <ul>
+          <li><strong>Travail en équipe :</strong> Élaboration du questionnaire et distribution auprès de la cible.</li>
+          <li><strong>Livrables :</strong> Rapport d'analyse rédigé sous LaTeX et scripts de traitement RStudio.</li>
+        </ul>
+
+        <h4>Démarche et résolution du problème</h4>
+        <ul>
+          <li><strong>Questionnaire :</strong> Structuration des questions ouvertes et fermées pour optimiser le taux de réponse.</li>
+          <li><strong>Traitement sous R :</strong> Nettoyage des données, tris à plat, croisés et tests d'hypothèses statistiques.</li>
+          <li><strong>Restitution :</strong> Rédaction scientifique et intégration de tableaux récapitulatifs sous LaTeX.</li>
+        </ul>
+
+        <h4>Acquis</h4>
+        <ul>
+          <li>Rigueur dans le traitement statistique de données d'enquêtes.</li>
+          <li>Rédaction de documentations synthétiques sous LaTeX et programmation R.</li>
+        </ul>
+      </div>
+
+      <div class="project-footer-tools">
+        <span class="tools-label">Outils d'analyse :</span>
+        <div class="tools-list">
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Traitement statistique et scripts.">RStudio / R</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Mise en page de rapport scientifique.">LaTeX</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Projet 3 -->
+    <article id="projet-3" class="project-card-detail mb-5">
+      <div class="project-header">
+        <span class="badge-sm">Systèmes d'Information & Gouvernance</span>
+        <h3>3. Production de Données en Entreprise & Intelligence Économique</h3>
+      </div>
+
+      <div class="project-body">
+        <h4>Présentation du projet</h4>
+        <p>Analyse des processus d'alimentation, de gouvernance des données et d'interconnexion des SI (ERP/CRM) au sein de l'organisation.</p>
+
+        <h4>Organisation du travail</h4>
+        <ul>
+          <li><strong>Livrables :</strong> Poster académique/synthétique et rapport d'architecture de flux de données.</li>
+        </ul>
+
+        <h4>Démarche et résolution du problème</h4>
+        <ul>
+          <li>Cartographie des flux de données internes et identification des goulots d'étranglement.</li>
+          <li>Analyse de la qualité de la donnée et des protocoles de sécurité/gouvernance.</li>
+          <li>Conception d'un poster visuel facilitant la compréhension des enjeux par la direction.</li>
+        </ul>
+
+        <h4>Acquis</h4>
+        <ul>
+          <li>Vision globale de l'architecture fonctionnelle des Systèmes d'Information (SI).</li>
+          <li>Capacité à vulgariser des concepts techniques via des supports visuels synthétiques.</li>
+        </ul>
+      </div>
+
+      <div class="project-footer-tools">
+        <span class="tools-label">Outils d'analyse :</span>
+        <div class="tools-list">
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Architecture et flux de données.">SI / ERP</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Création de posters et visuels.">PowerPoint</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Projet 4 -->
+    <article id="projet-4" class="project-card-detail mb-5">
+      <div class="project-header">
+        <span class="badge-sm">Séries Temporelles & Modélisation</span>
+        <h3>4. Analyse Chronologique et Prévision sous R</h3>
+      </div>
+
+      <div class="project-body">
+        <h4>Présentation du projet</h4>
+        <p>Étude économétrique et modélisation prédictive d'historiques temporels avec R.</p>
+
+        <h4>Organisation du travail</h4>
+        <ul>
+          <li><strong>Livrables :</strong> Script R modulable et rapport de prévision de séries chronologiques.</li>
+        </ul>
+
+        <h4>Démarche et résolution du problème</h4>
+        <ul>
+          <li>Décomposition de la série (tendance, saisonnalité, résidus).</li>
+          <li>Test de stationnarité et ajustement de modèles (ARIMA, Holt-Winters).</li>
+          <li>Évaluation des performances de prédiction et représentations graphiques avec ggplot2.</li>
+        </ul>
+
+        <h4>Acquis</h4>
+        <ul>
+          <li>Mise en œuvre concrète d'algorithmes prédictifs sur données temporelles.</li>
+          <li>Datavisualisation avancée avec la librairie ggplot2.</li>
+        </ul>
+      </div>
+
+      <div class="project-footer-tools">
+        <span class="tools-label">Outils d'analyse :</span>
+        <div class="tools-list">
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Environnement statistique.">RStudio / R</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Modèles ARIMA et Holt-Winters.">Time Series</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Visualisations graphiques.">ggplot2</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Projet 5 -->
+    <article id="projet-5" class="project-card-detail mb-5">
+      <div class="project-header">
+        <span class="badge-sm">Data Warehouse & Risk Management</span>
+        <h3>5. Intégration Datawarehouse & Analyse du Risque</h3>
+      </div>
+
+      <div class="project-body">
+        <h4>Présentation du projet</h4>
+        <p>Modélisation et analyse du risque de défaut bancaire à partir de données financières structurées.</p>
+
+        <h4>Organisation du travail</h4>
+        <ul>
+          <li><strong>Livrables :</strong> Dashboard décisionnel sur Qlik Sense et script de préparation Python.</li>
+        </ul>
+
+        <h4>Démarche et résolution du problème</h4>
+        <ul>
+          <li>Exploration, nettoyage et feature engineering des données clients sous Python.</li>
+          <li>Intégration des règles métier dans un entrepôt de données (Data Warehouse).</li>
+          <li>Construction d'un tableau de bord décisionnel interactif sur Qlik Sense pour le suivi du risque.</li>
+        </ul>
+
+        <h4>Acquis</h4>
+        <ul>
+          <li>Maîtrise de l'outil Qlik Sense et de la logique décisionnelle bancaire.</li>
+          <li>Préparation et structuration de données complexes sous Python.</li>
+        </ul>
+      </div>
+
+      <div class="project-footer-tools">
+        <span class="tools-label">Outils d'analyse :</span>
+        <div class="tools-list">
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Tableaux de bord décisionnels.">Qlik Sense</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Traitement et nettoyage.">Python</a>
+          <a href="index.html#competences" class="tag-tool" data-tooltip="Rapport récapitulatif.">LaTeX</a>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Salimata. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

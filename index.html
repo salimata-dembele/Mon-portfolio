@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salimata — Portfolio Science des Données</title>
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#accueil" class="logo">Salimata DEMBELE<span>.data</span></a>
+      <nav class="nav-links">
+        <a href="#accueil" class="active">Accueil</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#posters">Posters</a>
+        <a href="#experience">Parcours</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Changer de thème">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="burger" aria-label="Menu mobile">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero fade-in">
+      <div class="hero-content">
+        <span class="badge">BUT Science des Données — 3ᵉ année</span>
+        <h1>Étudiante en Exploration et Modélisation Statistique</h1>
+        
+        <p class="hero-description">
+          Salut, moi c'est Salimata ! Étudiante en 3ᵉ année de BUT Science des Données, je me passionne pour l'analyse et l'exploitation des données. Mon objectif est de transformer des informations brutes en leviers décisionnels clairs et stratégiques à travers la modélisation, la statistique et la datavisualisation.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projets" class="btn btn-primary">Découvrir mes projets</a>
+          <a href="poster/salimata_dembele_cv_st.pdf" download class="btn btn-secondary">Télécharger mon CV</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Compétences & Outils -->
+    <section id="competences" class="section fade-in">
+      <div class="section-title">
+        <h2>COMPÉTENCES & OUTILS</h2>
+        <p>Mon savoir-faire en méthodologies statistiques, langages et logiciels data.</p>
+      </div>
+
+      <!-- Compétences Statistiques -->
+      <div class="stats-skills-grid">
+        <div class="stat-card">
+          <div class="stat-header">
+            <i class="fa-solid fa-chart-pie"></i>
+            <h3>Analyse & Exploration</h3>
+          </div>
+          <ul>
+            <li>Statistique descriptive</li>
+            <li>Méthodes factorielles (ACP, AFC, ACM)</li>
+            <li>Statistique inférentielle</li>
+          </ul>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Modélisation & Inférence</h3>
+          </div>
+          <ul>
+            <li>Régression linéaire & Modèle linéaire</li>
+            <li>Tests d’hypothèse</li>
+            <li>Méthodes de clustering (K-Means, CAH)</li>
+          </ul>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-header">
+            <i class="fa-solid fa-list-check"></i>
+            <h3>Enquêtes & Échantillonnage</h3>
+          </div>
+          <ul>
+            <li>Techniques de sondage</li>
+            <li>Conception et dépouillement d'enquêtes</li>
+            <li>Redressement de données</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection-title mt-4">
+        <h3>OUTILS ET TECHNOLOGIES</h3>
+        <p>Survolez un logo pour suspendre le défilement et lire sa description.</p>
+      </div>
+
+      <!-- Carrousel à défilement infini avec images / logos -->
+      <div class="skills-carousel">
+        <div class="skills-track">
+          
+          <!-- 1ère série d'outils -->
+          <div class="skill-item" data-desc="Langage principal pour la Data Science, l'analyse de données et le Machine Learning.">
+            <img src="image/Python-Logo.png" alt="Python">
+            <span class="skill-name">Python</span>
+          </div>
+
+          <div class="skill-item" data-desc="Environnement de développement pour le traitement statistique, les séries temporelles et la création d'enquêtes.">
+            <img src="image/R-logo.png" alt="RStudio">
+            <span class="skill-name">RStudio</span>
+          </div>
+
+          <div class="skill-item" data-desc="Langage de structuration pour le développement web.">
+            <img src="image/html_logo.jpg" alt="HTML5">
+            <span class="skill-name">HTML5</span>
+          </div>
+
+          <div class="skill-item" data-desc="Feuilles de style pour la mise en forme et l'ergonomie web.">
+            <img src="image/CSS_logo.png" alt="CSS3">
+            <span class="skill-name">CSS3</span>
+          </div>
+
+          <div class="skill-item" data-desc="Langage dynamique pour le web et l'interactivité.">
+            <img src="image/javascript_logo.png" alt="JavaScript">
+            <span class="skill-name">JavaScript</span>
+          </div>
+
+          <div class="skill-item" data-desc="Système de gestion de base de données relationnelle pour la rédaction de requêtes SQL.">
+            <img src="image/mysql_ logo.png" alt="MySQL">
+            <span class="skill-name">MySQL</span>
+          </div>
+
+          <div class="skill-item" data-desc="Moteur de base de données relationnelle léger et autonome.">
+            <img src="image/sqlite.webp" alt="SQLite">
+            <span class="skill-name">SQLite</span>
+          </div>
+
+          <div class="skill-item" data-desc="Base de données NoSQL clé-valeur en mémoire très rapide.">
+            <img src="image/redis.png" alt="Redis">
+            <span class="skill-name">Redis</span>
+          </div>
+
+          <div class="skill-item" data-desc="Client universel de gestion et d'administration de bases de données.">
+            <img src="image/dbeaver.png" alt="DBeaver">
+            <span class="skill-name">DBeaver</span>
+          </div>
+
+          <div class="skill-item" data-desc="Logiciel de Business Intelligence pour dashboards interactifs et modélisation DAX.">
+            <img src="image/Power-BI-logol.png" alt="Power BI">
+            <span class="skill-name">Power BI</span>
+          </div>
+
+          <div class="skill-item" data-desc="Plateforme d'analyse décisionnelle et de visualisation dynamique.">
+            <img src="image/qlik-sense-logo.png" alt="Qlik Sense">
+            <span class="skill-name">Qlik Sense</span>
+          </div>
+
+          <div class="skill-item" data-desc="Logiciel d'analyse statistique et de traitement de données.">
+            <img src="image/sas-logo.png" alt="SAS">
+            <span class="skill-name">SAS</span>
+          </div>
+
+          <div class="skill-item" data-desc="Outil d'extraction, de nettoyage ETL et de transformation de données.">
+            <img src="image/power_querylogo.jpg" alt="Power Query">
+            <span class="skill-name">Power Query</span>
+          </div>
+
+          <div class="skill-item" data-desc="Modélisation de données complexes et calculs décisionnels sous Excel.">
+            <img src="image/powerpivot_logo.png" alt="Power Pivot">
+            <span class="skill-name">Power Pivot</span>
+          </div>
+
+          <div class="skill-item" data-desc="Automatisation de tâches répétitives et macros sur Excel.">
+            <img src="image/excel_vba.png" alt="VBA">
+            <span class="skill-name">VBA</span>
+          </div>
+
+          <div class="skill-item" data-desc="Outil d'analyse, de nettoyage de données et tableaux croisés dynamiques.">
+            <img src="image/excel-logo-.webp" alt="Excel">
+            <span class="skill-name">Excel</span>
+          </div>
+
+          <div class="skill-item" data-desc="Rédaction de rapports d'études et documents professionnels.">
+            <img src="image/Word-Logo.png" alt="Word">
+            <span class="skill-name">Word</span>
+          </div>
+
+          <div class="skill-item" data-desc="Création de supports de présentation visuels et décisionnels.">
+            <img src="image/PowerPoint-Logo.png" alt="PowerPoint">
+            <span class="skill-name">PowerPoint</span>
+          </div>
+
+          <div class="skill-item" data-desc="Langage de composition pour rapports scientifiques et posters.">
+            <img src="image/latex-logo.webp" alt="LaTeX">
+            <span class="skill-name">LaTeX</span>
+          </div>
+
+          <div class="skill-item" data-desc="Planification de projets, diagrammes de Gantt et gestion des délais.">
+            <img src="image/gantt_project.png" alt="GanttProject">
+            <span class="skill-name">GanttProject</span>
+          </div>
+
+          <!-- 2ème série (Duplication exacte pour boucle infinie sans saut) -->
+          <div class="skill-item" data-desc="Langage principal pour la Data Science, l'analyse de données et le Machine Learning.">
+            <img src="image/Python-Logo.png" alt="Python">
+            <span class="skill-name">Python</span>
+          </div>
+
+          <div class="skill-item" data-desc="Environnement de développement pour le traitement statistique, les séries temporelles et la création d'enquêtes.">
+            <img src="image/R-logo.png" alt="RStudio">
+            <span class="skill-name">RStudio</span>
+          </div>
+
+          <div class="skill-item" data-desc="Langage de structuration pour le développement web.">
+            <img src="image/html_logo.jpg" alt="HTML5">
+            <span class="skill-name">HTML5</span>
+          </div>
+
+          <div class="skill-item" data-desc="Feuilles de style pour la mise en forme et l'ergonomie web.">
+            <img src="image/CSS_logo.png" alt="CSS3">
+            <span class="skill-name">CSS3</span>
+          </div>
+
+          <div class="skill-item" data-desc="Langage dynamique pour le web et l'interactivité.">
+            <img src="image/javascript_logo.png" alt="JavaScript">
+            <span class="skill-name">JavaScript</span>
+          </div>
+
+          <div class="skill-item" data-desc="Système de gestion de base de données relationnelle pour la rédaction de requêtes SQL.">
+            <img src="image/mysql_ logo.png" alt="MySQL">
+            <span class="skill-name">MySQL</span>
+          </div>
+
+          <div class="skill-item" data-desc="Moteur de base de données relationnelle léger et autonome.">
+            <img src="image/sqlite.webp" alt="SQLite">
+            <span class="skill-name">SQLite</span>
+          </div>
+
+          <div class="skill-item" data-desc="Base de données NoSQL clé-valeur en mémoire très rapide.">
+            <i class="fa-solid fa-server skill-icon"></i>
+            <span class="skill-name">Redis</span>
+          </div>
+
+          <div class="skill-item" data-desc="Client universel de gestion et d'administration de bases de données.">
+            <i class="fa-solid fa-network-wired skill-icon"></i>
+            <span class="skill-name">DBeaver</span>
+          </div>
+
+          <div class="skill-item" data-desc="Logiciel de Business Intelligence pour dashboards interactifs et modélisation DAX.">
+            <img src="image/Power-BI-logol.png" alt="Power BI">
+            <span class="skill-name">Power BI</span>
+          </div>
+
+          <div class="skill-item" data-desc="Plateforme d'analyse décisionnelle et de visualisation dynamique.">
+            <img src="image/qlik-sense-logo.png" alt="Qlik Sense">
+            <span class="skill-name">Qlik Sense</span>
+          </div>
+
+          <div class="skill-item" data-desc="Logiciel d'analyse statistique et de traitement de données.">
+            <img src="image/sas-logo.png" alt="SAS">
+            <span class="skill-name">SAS</span>
+          </div>
+
+          <div class="skill-item" data-desc="Outil d'extraction, de nettoyage ETL et de transformation de données.">
+            <img src="image/power_querylogo.jpg" alt="Power Query">
+            <span class="skill-name">Power Query</span>
+          </div>
+
+          <div class="skill-item" data-desc="Modélisation de données complexes et calculs décisionnels sous Excel.">
+            <img src="image/powerpivot_logo.png" alt="Power Pivot">
+            <span class="skill-name">Power Pivot</span>
+          </div>
+
+          <div class="skill-item" data-desc="Automatisation de tâches répétitives et macros sur Excel.">
+            <img src="image/excel_vba.png" alt="VBA">
+            <span class="skill-name">VBA</span>
+          </div>
+
+          <div class="skill-item" data-desc="Outil d'analyse, de nettoyage de données et tableaux croisés dynamiques.">
+            <img src="image/excel-logo-.webp" alt="Excel">
+            <span class="skill-name">Excel</span>
+          </div>
+
+          <div class="skill-item" data-desc="Rédaction de rapports d'études et documents professionnels.">
+            <img src="image/Word-Logo.png" alt="Word">
+            <span class="skill-name">Word</span>
+          </div>
+
+          <div class="skill-item" data-desc="Création de supports de présentation visuels et décisionnels.">
+            <img src="image/PowerPoint-Logo.png" alt="PowerPoint">
+            <span class="skill-name">PowerPoint</span>
+          </div>
+
+          <div class="skill-item" data-desc="Langage de composition pour rapports scientifiques et posters.">
+            <img src="image/latex-logo.webp" alt="LaTeX">
+            <span class="skill-name">LaTeX</span>
+          </div>
+
+          <div class="skill-item" data-desc="Planification de projets, diagrammes de Gantt et gestion des délais.">
+            <img src="image/gantt_project.png" alt="GanttProject">
+            <span class="skill-name">GanttProject</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Boîte d'affichage dynamique de la description -->
+      <div class="tool-description-box" id="tool-description">
+        Survolez un logo pour voir sa description.
+      </div>
+    </section>
+
+    <!-- Section Aperçu des Projets -->
+    <section id="projets" class="section fade-in">
+      <div class="section-title">
+        <h2>Mes Projets</h2>
+        <p>Aperçu synthétique de mes réalisations académiques et pratiques.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Projet 1 -->
+        <article class="project-card">
+          <span class="badge-sm">Business Intelligence</span>
+          <h3>1. Indicateurs de Performance (KPI)</h3>
+          <p>Analyse de la gravité des fusillades de masse aux États-Unis (base Mother Jones) et conception d'un dashboard interactif sous Power BI.</p>
+          <div class="tools-list">
+            <span class="tag-mini">Power BI</span>
+            <span class="tag-mini">DAX</span>
+            <span class="tag-mini">Power Query</span>
+          </div>
+          <a href="projets.html#projet-1" class="btn-link">Voir le détail du projet →</a>
+        </article>
+
+        <!-- Projet 2 -->
+        <article class="project-card">
+          <span class="badge-sm">Statistiques & Enquête</span>
+          <h3>2. Mise en Œuvre d’une Enquête</h3>
+          <p>Conception, collecte et analyse des pratiques sportives chez des lycéens avec restitutions sous RStudio et rapport scientifique LaTeX.</p>
+          <div class="tools-list">
+            <span class="tag-mini">RStudio</span>
+            <span class="tag-mini">LaTeX</span>
+            <span class="tag-mini">Statistiques</span>
+          </div>
+          <a href="projets.html#projet-2" class="btn-link">Voir le détail du projet →</a>
+        </article>
+
+        <!-- Projet 3 -->
+        <article class="project-card">
+          <span class="badge-sm">Systèmes d'Information</span>
+          <h3>3. Production de Données en Entreprise</h3>
+          <p>Étude des mécanismes SI (ERP/CRM), flux de données et création d'un poster d'intelligence économique pour appuyer les décisions stratégiques.</p>
+          <div class="tools-list">
+            <span class="tag-mini">SI / ERP</span>
+            <span class="tag-mini">PowerPoint</span>
+            <span class="tag-mini">Veille SI</span>
+          </div>
+          <a href="projets.html#projet-3" class="btn-link">Voir le détail du projet →</a>
+        </article>
+
+        <!-- Projet 4 -->
+        <article class="project-card">
+          <span class="badge-sm">Séries Temporelles</span>
+          <h3>4. Analyse & Prévision sous R</h3>
+          <p>Étude d'historiques chronologiques, décomposition de tendances et modélisation prédictive (ARIMA / Holt-Winters) avec ggplot2.</p>
+          <div class="tools-list">
+            <span class="tag-mini">RStudio</span>
+            <span class="tag-mini">Time Series</span>
+            <span class="tag-mini">ggplot2</span>
+          </div>
+          <a href="projets.html#projet-4" class="btn-link">Voir le détail du projet →</a>
+        </article>
+
+        <!-- Projet 5 -->
+        <article class="project-card">
+          <span class="badge-sm">Data Warehouse & BI</span>
+          <h3>5. Intégration Datawarehouse & Risk</h3>
+          <p>Analyse du risque de défaut bancaire avec exploration Python et dashboard décisionnel sur Qlik Sense.</p>
+          <div class="tools-list">
+            <span class="tag-mini">Qlik Sense</span>
+            <span class="tag-mini">Python</span>
+            <span class="tag-mini">LaTeX</span>
+          </div>
+          <a href="projets.html#projet-5" class="btn-link">Voir le détail du projet →</a>
+        </article>
+
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="projets.html" class="btn btn-primary">Tous mes projets →</a>
+      </div>
+    </section>
+
+  <!-- Section POSTERS -->
+    <section id="posters" class="section fade-in">
+      <div class="section-title">
+        <h2>POSTERS</h2>
+        <p>Aperçu des travaux et synthèses visuelles réalisés au cours de mon parcours en Science des Données.</p>
+      </div>
+
+      <!-- Grille des posters -->
+      <div class="posters-grid">
+
+        <!-- Poster 1 -->
+        <article class="poster-card">
+          <div>
+            <span class="badge-sm">Architecture &amp; SI</span>
+            <h3>Business Intelligence : Architecture, Analyse et Big Data</h3>
+            <p>Étude des architectures de données, du modèle OLAP, du traitement Big Data et de l'intégration temps réel pour la prise de décision stratégique.</p>
+          </div>
+          <div class="poster-preview">
+            <a href="poster/Business_Intelligence_Architecture,Analyse et Big Data.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-pdf"></i> Consulter le PDF
+            </a>
+          </div>
+        </article>
+
+        <!-- Poster 2 -->
+        <article class="poster-card">
+          <div>
+            <span class="badge-sm">Séries Temporelles</span>
+            <h3>Dynamique de la collecte de lait en France (2018-2025)</h3>
+            <p>Analyse des tendances et de la saisonnalité des filières laitières (vache, chèvre, brebis) avec modélisation et prévisions à l'horizon 2028 sous R.</p>
+          </div>
+          <div class="poster-preview">
+            <a href="poster/Dynamique de la collecte de lait en France(2018-2025).pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-pdf"></i> Consulter le PDF
+            </a>
+          </div>
+        </article>
+
+        <!-- Poster 3 -->
+        <article class="poster-card">
+          <div>
+            <span class="badge-sm">Analyse Démographique</span>
+            <h3>Être jeune, peu diplômé et non scolarisé en Normandie</h3>
+            <p>Étude statistique des profils de 15 à 29 ans exposés au risque d'exclusion sociale selon le sexe, le diplôme et la répartition territoriale.</p>
+          </div>
+          <div class="poster-preview">
+            <a href="poster/Être jeune, peu diplômé et non scolarisé en Normandie .pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-pdf"></i> Consulter le PDF
+            </a>
+          </div>
+        </article>
+
+        <!-- Poster 4 -->
+        <article class="poster-card">
+          <div>
+            <span class="badge-sm">Visualisation &amp; BI</span>
+            <h3>Gravité et typologie des attaques de masse aux États-Unis</h3>
+            <p>Analyse exploratoire et cartographique des tendances historiques, du profil des auteurs et des armes utilisées dans les attaques de masse.</p>
+          </div>
+          <div class="poster-preview">
+            <a href="poster/GRAVITE ET TYPOLOGIE  DES ATTAQUES DE MASSE AUX ETATS-UNIS.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-pdf"></i> Consulter le PDF
+            </a>
+          </div>
+        </article>
+
+        <!-- Poster 5 -->
+        <article class="poster-card">
+          <div>
+            <span class="badge-sm">Systèmes d'Information &amp; IE</span>
+            <h3>Mécanisme de production de données en entreprise</h3>
+            <p>Étude de la génération de données (ERP, CRM), des processus de collecte/traitement et des veilles stratégiques en intelligence économique.</p>
+          </div>
+          <div class="poster-preview">
+            <a href="poster/MECANISME DE PRODUCTION DE DONNEES EN ENTREPRISE.pdf" target="_blank" class="btn btn-secondary">
+              <i class="fa-solid fa-file-pdf"></i> Consulter le PDF
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Section Parcours (Expériences & Formation) -->
+    <section id="experience" class="section fade-in">
+      <div class="section-title">
+        <h2>Parcours & Expériences</h2>
+        <p>Mon cheminement académique et mes activités professionnelles.</p>
+      </div>
+
+      <div class="timeline-container">
+        
+        <!-- Blocs Expériences Pro -->
+        <div class="timeline-block">
+          <h3 class="timeline-heading">Expériences Professionnelles</h3>
+          <div class="timeline">
+
+            <!-- Expérience 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">En cours — Job étudiant</span>
+                <h3>Leader</h3>
+                <h4>Burger King</h4>
+                <ul>
+                  <li>Coordination des équipes, organisation du service et tenue des cadences.</li>
+                  <li>Gestion de la relation client et développement du sens du leadership sous pression.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Expérience 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">Avril — Juin 2026</span>
+                <h3>Stagiaire Chargée de Mission Données</h3>
+                <h4>Calvados Attractivité — Caen</h4>
+                <ul>
+                  <li>Numérisation et structuration de 5 bases touristiques patrimoniales (1998–2012).</li>
+                  <li>Création d'un modèle en étoile sous Power Pivot.</li>
+                  <li>Nettoyage et filtrage automatisé sous RStudio.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Expérience 3 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">Fév. 2024 — Août 2024 (7 mois)</span>
+                <h3>Responsable de Magasin (CDI)</h3>
+                <h4>HS Electronique plus — Gabon</h4>
+                <ul>
+                  <li>Suivi et gestion des stocks sur Excel.</li>
+                  <li>Analyse des ventes et reporting hebdomadaire.</li>
+                  <li>Mise à jour de tableaux de bord de suivi commercial.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Blocs Parcours Académique -->
+        <div class="timeline-block mt-4">
+          <h3 class="timeline-heading">Parcours Académique</h3>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">2024 — 2027</span>
+                <h3>BUT Science des Données</h3>
+                <h4>IUT Grand Ouest Normandie</h4>
+                <p>Spécialisation en exploration et modélisation statistique</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">2023</span>
+                <h3>Baccalauréat Scientifique</h3>
+                <h4>Lycée Capitaine NTCHORERE</h4>
+                <p>Option Mathématiques / Sciences-Physiques</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+ <!-- Section CONTACT -->
+    <section id="contact" class="section fade-in">
+      <div class="section-title">
+        <h2>CONTACT</h2>
+        <p>Un projet, une question ou une opportunité ? N'hésitez pas à me contacter.</p>
+      </div>
+
+      <form action="https://formspree.io/f/xdekjwan" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="fullname">Nom et Prénom</label>
+          <input type="text" id="fullname" name="name" placeholder="Ex. Jean Dupont" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Adresse e-mail</label>
+          <input type="email" id="email" name="_replyto" placeholder="Ex. jean.dupont@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Objet</label>
+          <input type="text" id="subject" name="_subject" placeholder="Ex. Prise de contact / Opportunité" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <i class="fa-solid fa-paper-plane"></i> Envoyer
+        </button>
+      </form>
+    </section>
+
+  <footer>
+    <p>© 2026 Salimata. Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
